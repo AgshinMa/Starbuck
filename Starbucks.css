@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+}
+
+nav
+.right>svg{
+    height: 50px;
+    width: 50px;
+
+    
+}
+.right{
+    margin-left: 5%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navright{ 
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    padding-left: 30px;
+   
+}
+
+
+.navleft{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+
+}
+.left{
+    padding-left: 55%;
+    padding-top: 39px;
+}
+
+.navright>li>a{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 15px;
+    font-weight: 700;
+
+}
+.navleft>li>a{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.navright>li{
+    padding-left: 20px;
+}
+.navleft>li{
+    padding-right: 30px;
+}
+.navleft svg{
+    height: 15px !important;
+}
+.border{
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px 10px !important;
+    margin-right: 10px;
+
+}
+.border1{
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px 10px !important;
+    background-color: black;
+}  
+.textcolor{
+    color: white !important;
+}
+li .bgc :hover{
+   background-color: aqua;
+}
+.navright :hover{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.border :hover{
+    background-color:  rgba(0, 0, 0, 0.6) ;
+}
+.firstrow{
+    width: 90%;
+    height: 450px;
+    background-color: bisque;
+    margin-left: 5%;
+    margin-top: 2%;
+    display: flex;
+    background-color: #d4e9e2;
+   
+}
+.firstpic{
+    width: 50%;
+    height: 450px;
+    background-image: url(./images/137-79280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}   
+/* .heading{
+    margin-left: 60%;
+    margin-top: 20%;
+    font-size: ; */
+
+.paragraph{
+    margin-top: 10%;
+    margin-left: 15%;
+    text-align: center;
+}
+.heading{
+    padding-bottom: 5%;
+    font-size: 30px;
+    color: dimgrey;
+
+}
+.pa{
+    padding-bottom: 15%;
+    color: dimgrey;
+}
+.join{
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px 10px !important;
+    margin-right: 10px;
+    color: black;
+
+}
+.join :hover{
+    background-color: darkgrey;
+}
